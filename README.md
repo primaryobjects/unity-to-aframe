@@ -61,60 +61,60 @@ fade: integer, how quickly the sound fades when moving away from the object, def
 
 ## Export Options
 
-![unity-to-aframe options](screenshot2.gif)
+![unity-to-aframe options](screenshot2.png)
 
 ### General
 
-**Title**
+Title
   Title of A-Frame.
 
-**Library Address**
+Library Address
   A-Frame library address you want to use.
 
-**Enable_performance_statistics**
+Enable_performance_statistics
   Show Performance Statistics.
 
 ### Sky
 
-**Enable_Sky**
+Enable_Sky
   Enable A-Frame Sky.
 
-**Sky_color_from_Main Camera_Background**
+Sky_color_from_Main Camera_Background
   Use sky color from Main Camera Background.
 
-**Sky_color**
+Sky_color
   Sky color.
 
-**Sky_texture**
+Sky_texture
   Sky texture.
 
 ### Camera
 
-**Wasd_controls_enabled**
+Wasd_controls_enabled
   Enable WASD control.
 
-**Look_controls_enabled**
+Look_controls_enabled
   Enable Look control.
 
-**Enable_Sky**
+Enable_Sky
   Enable A-Frame Sky.
 
-**Cursor_visible**
+Cursor_visible
   Change cursor visible.
 
-**Cursor_opacity**
+Cursor_opacity
   Change cursor opacity.0 to 1.
 
-**Cursor_scale**
+Cursor_scale
   Change cursor scale.
 
-**Cursor_color**
+Cursor_color
   Change cursor color.
 
-**Cursor_offset**
+Cursor_offset
   Change cursor offset.
   
-**Cursor_maxdistance**
+Cursor_maxdistance
   Change cursor max distance.
 
 ### Clear Exported Files
