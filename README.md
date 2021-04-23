@@ -16,7 +16,7 @@ Exported scenes include 3D objects, animations, textures, lighting, and audio.
 ## Quick Start
 
 1. Clone [unity-to-aframe](https://github.com/primaryobjects/unity-to-aframe.git).
-2. Copy `Assets/unity-to-aframe` and `Assets/CombineMeshes` to your Unity 3D project folder `Assets`.
+2. Copy `Assets/unity-to-aframe` and `Assets/CombineMeshes` to the folder `Assets` in your Unity 3D project.
 3. Open your project from Unity3D.
 4. Open the scene you want to export.
 5. Click the unity-to-aframe prefab to show the exporter inspector.
@@ -26,11 +26,11 @@ Exported scenes include 3D objects, animations, textures, lighting, and audio.
 
 ### Additional Notes
 
-*- You may need to copy `.png` images into the folder `Assets/unity-to-aframe/export/images` for textures used by your scene.*
+- You may need to copy `.png` images into the folder `Assets/unity-to-aframe/export/images` for textures used by your scene.
 
-*- Some models render better using gltf format, instead of obj. You can convert your models using [gltf-exporer](https://github.com/Plattar/gltf-exporter) from within Unity and save to your `/export/models` directory. Finally, edit your exported index.html to load the gltf by changing the `<a-obj-model>` tag to `<a-gltf-model src="models/your_model.gltf"></a-gltf-model>`*
+- Some models render better using gltf format, instead of obj. You can convert your models using [gltf-exporer](https://github.com/Plattar/gltf-exporter) from within Unity and save to your `/export/models` directory. Finally, edit your exported index.html to load the gltf by changing the `<a-obj-model>` tag to `<a-gltf-model src="models/your_model.gltf"></a-gltf-model>`
 
-*- Linux users may need to install the following libraries: `sudo apt install libc6-dev` and `sudo apt install libgdiplus`.*
+- Linux users may need to install the following libraries: `sudo apt install libc6-dev` and `sudo apt install libgdiplus`.
 
 ## Using Sound Effects
 
