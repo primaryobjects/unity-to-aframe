@@ -24,11 +24,11 @@ Exported scenes include 3D objects, animations, textures, lighting, and audio.
 7. Find the `index.html` file in your project Assets folder under `Assets/unity-to-aframe/export/index.html`
 8. Launch a local web server in the `/export` folder using `python3 -m http.server` to view the result at `http://localhost:8000`
 
-*Note 1, you may need to copy `.png` images into the folder `Assets/unity-to-aframe/export/images` for textures used by your scene.*
+### Additional Notes
 
-*Note 2, some models render better using gltf format, instead of obj. You can convert your models using [gltf-exporer](https://github.com/Plattar/gltf-exporter) from within Unity and save to your `/export/models` directory. Finally, edit your exported index.html to load the gltf by changing the `<a-obj-model>` tag to `<a-gltf-model src="models/your_model.gltf"></a-gltf-model>`*
-
-*Note 3, Linux users may need to install the following libraries: `sudo apt install libc6-dev` and `sudo apt install libgdiplus`.*
+*- You may need to copy `.png` images into the folder `Assets/unity-to-aframe/export/images` for textures used by your scene.*
+*- Some models render better using gltf format, instead of obj. You can convert your models using [gltf-exporer](https://github.com/Plattar/gltf-exporter) from within Unity and save to your `/export/models` directory. Finally, edit your exported index.html to load the gltf by changing the `<a-obj-model>` tag to `<a-gltf-model src="models/your_model.gltf"></a-gltf-model>`*
+*- Linux users may need to install the following libraries: `sudo apt install libc6-dev` and `sudo apt install libgdiplus`.*
 
 ## Using Sound Effects
 
