@@ -27,16 +27,17 @@ public class UnityToAFrame : ScriptableObject {
     public float cursor_maxdistance = 1000f;
 
     private string indent = "      ";
-    private string exporter_path = "Assets/unity-to-aframe/scripts";
     private string export_path = "Assets/unity-to-aframe/export";
     private string export_filename = "index.html";
 
     //A-FrameをExportする
     public void Export()
     {
-        TextAsset template_head = AssetDatabase.LoadAssetAtPath<TextAsset>(exporter_path + "/template_head.txt");
-        TextAsset template_append = AssetDatabase.LoadAssetAtPath<TextAsset>(exporter_path + "/template_append.txt");
-        TextAsset template_end = AssetDatabase.LoadAssetAtPath<TextAsset>(exporter_path + "/template_end.txt");
+        string scripts_path = "Assets/unity-to-aframe/scripts/";
+
+        TextAsset template_head = AssetDatabase.LoadAssetAtPath<TextAsset>(scripts_path + "template_head.txt");
+        TextAsset template_append = AssetDatabase.LoadAssetAtPath<TextAsset>(scripts_path + "template_append.txt");
+        TextAsset template_end = AssetDatabase.LoadAssetAtPath<TextAsset>(scripts_path + "template_end.txt");
 
         //exportフォルダが無ければ作る
         string guid_exist = AssetDatabase.AssetPathToGUID(export_path);
@@ -77,7 +78,7 @@ public class UnityToAFrame : ScriptableObject {
 
         if (enable_web)
         {
-            File.Copy(exporter_path + "/script.js", Application.dataPath + "/unity-to-aframe/export/script.js", true);
+            File.Copy(scripts_path + "script.js", Application.dataPath + "/unity-to-aframe/export/script.js", true);
         }
 
         if (enable_physics)
