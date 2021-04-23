@@ -27,7 +27,9 @@ Exported scenes include 3D objects, animations, textures, lighting, and audio.
 ### Additional Notes
 
 *- You may need to copy `.png` images into the folder `Assets/unity-to-aframe/export/images` for textures used by your scene.*
+
 *- Some models render better using gltf format, instead of obj. You can convert your models using [gltf-exporer](https://github.com/Plattar/gltf-exporter) from within Unity and save to your `/export/models` directory. Finally, edit your exported index.html to load the gltf by changing the `<a-obj-model>` tag to `<a-gltf-model src="models/your_model.gltf"></a-gltf-model>`*
+
 *- Linux users may need to install the following libraries: `sudo apt install libc6-dev` and `sudo apt install libgdiplus`.*
 
 ## Using Sound Effects
