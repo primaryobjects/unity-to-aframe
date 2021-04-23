@@ -165,3 +165,7 @@ Using the [aframe-particle-system-component](https://github.com/IdeaSpaceVR/afra
 ### Sound Engine
 
 Using [Howler.js](https://howlerjs.com/) with spacial audio to play sound effects as you approach objects. See [example](https://gist.github.com/primaryobjects/66516de4423f302856ecb82f23edb07e#file-index-html) for how to add to your VR objects.
+
+## References
+
+This project was originally forked from [UnityAFrameExporter](https://github.com/umiyuki/UnityAFrameExporter).
