@@ -3,6 +3,8 @@ unity-to-aframe
 
 Convert a Unity 3D scene [A-Frame](https://aframe.io/).
 
+![Export A-Frame scene from Unity 3D](screenshot.gif)
+
 ## About
 
 Unity-to-aframe is an easy Unity 3D plug-in to automatically export your scene to a WebVR virtual reality web page, using A-Frame.
@@ -10,8 +12,6 @@ Unity-to-aframe is an easy Unity 3D plug-in to automatically export your scene t
 Exported scenes include 3D objects, animations, textures, lighting, and audio.
 
 *Compatible with A-Frame version [1.1.0](https://aframe.io/docs/1.1.0/introduction/)+.*
-
-![Export A-Frame scene from Unity 3D](screenshot.gif)
 
 ## Quick Start
 
@@ -59,7 +59,7 @@ fade: integer, how quickly the sound fades when moving away from the object, def
 
 ## Export Options
 
-![image1]()
+![unity-to-aframe options](screenshot2.gif)
 
 ### General
 
