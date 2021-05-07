@@ -17,12 +17,13 @@ Exported scenes include 3D objects, animations, textures, lighting, and audio.
 
 1. Clone [unity-to-aframe](https://github.com/primaryobjects/unity-to-aframe.git).
 2. Copy `Assets/unity-to-aframe` and `Assets/CombineMeshes` to the folder `Assets` in your Unity 3D project.
-3. Open your project from Unity3D.
+3. Open your project from Unity 3D.
 4. Open the scene you want to export.
 5. Click the unity-to-aframe prefab to show the exporter inspector.
-6. Click **Export** in the inspector.
-7. Find the `index.html` file in your project Assets folder under `Assets/unity-to-aframe/export/index.html`
-8. Launch a local web server in the `/export` folder using `python3 -m http.server` to view the result at `http://localhost:8000`
+6. If prompted for a Mono Script, select the object **UnityToAFrame** then drag & drop the Mono Script "UnityToAFrame" into the right-side toolbar to open the prefab tool UI.
+7. Click **Export** in the inspector.
+8. Find the `index.html` file in your project Assets folder under `Assets/unity-to-aframe/export/index.html`
+9. Launch a local web server in the `/export` folder using `python3 -m http.server` to view the result at `http://localhost:8000`
 
 ### Additional Notes
 
